@@ -609,8 +609,8 @@ nav .navbar ul li a {
     gap: 20px;
   }
   .skill-sec .skills-row .skill-box {
-    width: 110px;
-    height: 110px;
+    width: 130px;
+    height: 130px;
   }
   .key-sec .key-row {
     flex-wrap: wrap;
