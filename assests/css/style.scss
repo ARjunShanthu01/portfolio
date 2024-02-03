@@ -888,10 +888,10 @@ nav {
 
         .skills-row {
             gap: 20px;
-
+            justify-content: center;
             .skill-box {
-                width: 130px;
-                height: 130px;
+                width: 145px;
+                height: 145px;
             }
         }
     }

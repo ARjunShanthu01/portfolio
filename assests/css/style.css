@@ -614,10 +614,11 @@ nav .navbar ul li a {
   }
   .skill-sec .skills-row {
     gap: 20px;
+    justify-content: center;
   }
   .skill-sec .skills-row .skill-box {
-    width: 130px;
-    height: 130px;
+    width: 145px;
+    height: 145px;
   }
   .key-sec .key-row {
     flex-wrap: wrap;
