@@ -436,7 +436,6 @@ nav .navbar ul li a {
     display: block;
   }
   nav .navbar {
-    background-color: #26262D;
     padding: 10px;
     position: fixed;
     top: 0;
@@ -481,6 +480,12 @@ nav .navbar ul li a {
   }
   body .home-sec {
     border-bottom: 5px solid #26262D;
+  }
+  body .navbar {
+    background-color: #26262D;
+  }
+  body .navbar ul li a {
+    color: #fff;
   }
   .btns {
     display: flex;
@@ -542,6 +547,9 @@ nav .navbar ul li a {
   body.light-mode header {
     background-color: #ffffff;
     border-top: 5px solid #f0f0f0;
+  }
+  body.light-mode nav .navbar {
+    background-color: #f0f0f0;
   }
   body.light-mode nav .navbar ul li a {
     color: #31313A;
