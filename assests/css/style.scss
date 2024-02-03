@@ -641,7 +641,8 @@ nav {
 
     nav {
         .navbar {
-            background-color: #26262D;
+            // background-color: #26262D;
+            // color: #fff;
             padding: 10px;
             position: fixed;
             top: 0;
@@ -696,6 +697,17 @@ nav {
 
         .home-sec {
             border-bottom: 5px solid #26262D;
+        }
+
+        .navbar{
+            background-color: #26262D;
+            ul {
+                li {
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
         }
     }
 
@@ -777,6 +789,7 @@ nav {
         nav {
     
             .navbar {
+                background-color: #f0f0f0;
                 ul {
                     li {
                         a {
