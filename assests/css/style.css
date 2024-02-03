@@ -576,7 +576,7 @@ nav .navbar ul li a {
     color: #F26B38;
   }
   body.light-mode .skill-sec .skills-row .skill-box {
-    border: 5px solid #f0f0f0;
+    border: 20px solid #f0f0f0;
   }
   .resume-sec {
     padding: 15vh 0 0 0;
