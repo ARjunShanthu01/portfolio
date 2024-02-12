@@ -167,6 +167,7 @@ button {
 header {
     background-color: $bg-color-dark;
     border-top: 20px solid #26262D;
+    padding: 10px 0;
 }
 
 
@@ -222,6 +223,9 @@ body {
                 font-size: 30px;
                 font-weight: 600;
                 text-shadow: -1px 0px 0px #F26B38;
+            }
+            &:hover{
+                color: #F26B38;
             }
         }
     }
@@ -279,7 +283,14 @@ body {
     .skill-sec {
         .skills-row {
             .skill-box {
-                border: 20px solid #26262D;
+                // border: 20px solid #26262D;
+                img{
+                    width: 100%;
+                    filter: grayscale(1);
+                }
+                &:hover img{
+                    filter: grayscale(0);
+                }
             }
         }
     }
@@ -359,13 +370,13 @@ body.light-mode {
         }
     }
 
-    .skill-sec {
-        .skills-row {
-            .skill-box {
-                border: 20px solid #f0f0f0;
-            }
-        }
-    }
+    // .skill-sec {
+    //     .skills-row {
+    //         .skill-box {
+    //             border: 20px solid #f0f0f0;
+    //         }
+    //     }
+    // }
 }
 
 
@@ -508,13 +519,13 @@ nav {
 
     .skills-row {
         display: flex;
-        gap: 40px;
+        gap: 30px;
         flex-wrap: wrap;
         align-items: center;
 
         .skill-box {
-            width: 130px;
-            height: 130px;
+            width: 180px;
+            height: auto;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -832,14 +843,14 @@ nav {
             }
         }
     
-        .skill-sec {
-            .skills-row {
+        // .skill-sec {
+        //     .skills-row {
 
-                .skill-box {
-                    border: 20px solid #f0f0f0;
-                }
-            }
-        }
+        //         .skill-box {
+        //             border: 20px solid #f0f0f0;
+        //         }
+        //     }
+        // }
     }
 
 
@@ -892,8 +903,8 @@ nav {
             gap: 20px;
             justify-content: center;
             .skill-box {
-                width: 145px;
-                height: 145px;
+                width: 115px;
+                height: auto;
             }
         }
     }

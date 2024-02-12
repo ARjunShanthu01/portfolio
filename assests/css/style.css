@@ -79,6 +79,7 @@ button {
 header {
   background-color: #31313A;
   border-top: 20px solid #26262D;
+  padding: 10px 0;
 }
 
 header {
@@ -128,6 +129,9 @@ body .logo a span {
   font-weight: 600;
   text-shadow: -1px 0px 0px #F26B38;
 }
+body .logo a:hover {
+  color: #F26B38;
+}
 body nav .navbar .mobile-logo {
   display: none;
 }
@@ -159,8 +163,12 @@ body .home-sec .home-content ul li {
 body .home-sec .home-content ul li a {
   color: #F26B38;
 }
-body .skill-sec .skills-row .skill-box {
-  border: 20px solid #26262D;
+body .skill-sec .skills-row .skill-box img {
+  width: 100%;
+  filter: grayscale(1);
+}
+body .skill-sec .skills-row .skill-box:hover img {
+  filter: grayscale(0);
 }
 
 body.light-mode {
@@ -211,9 +219,6 @@ body.light-mode .home-sec .home-content ul li {
 }
 body.light-mode .home-sec .home-content ul li a {
   color: #F26B38;
-}
-body.light-mode .skill-sec .skills-row .skill-box {
-  border: 20px solid #f0f0f0;
 }
 
 nav {
@@ -329,13 +334,13 @@ nav .navbar ul li a {
 }
 .skill-sec .skills-row {
   display: flex;
-  gap: 40px;
+  gap: 30px;
   flex-wrap: wrap;
   align-items: center;
 }
 .skill-sec .skills-row .skill-box {
-  width: 130px;
-  height: 130px;
+  width: 180px;
+  height: auto;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -575,9 +580,6 @@ nav .navbar ul li a {
   body.light-mode .home-sec .home-content ul li a {
     color: #F26B38;
   }
-  body.light-mode .skill-sec .skills-row .skill-box {
-    border: 20px solid #f0f0f0;
-  }
   .resume-sec {
     padding: 15vh 0 0 0;
   }
@@ -618,8 +620,8 @@ nav .navbar ul li a {
     justify-content: center;
   }
   .skill-sec .skills-row .skill-box {
-    width: 145px;
-    height: 145px;
+    width: 115px;
+    height: auto;
   }
   .key-sec .key-row {
     flex-wrap: wrap;
